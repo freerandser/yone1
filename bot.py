@@ -25,4 +25,5 @@ async def random_lol(ctx, *, text=''):
     await ctx.send(message)
 
 
-bot.run('OTU2MzUzNDQzODIyNDQ4Njcx.Yju_jQ.WTcN1UKCXpkhX7SXH2FVjaO8aOo')
+access_token = os.environ["BOT_TOKEN"]
+client.token(access_token)
